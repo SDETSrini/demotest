@@ -13,7 +13,7 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		features = "src\\main\\java\\Feature",
+		features = "src\\main\\test\\Feature",
 		glue = {"StepDefn","Hooks"},
 		plugin = { "pretty", "html:target/cucumber", "json:target/cucumber.json" },
 		dryRun = false,
