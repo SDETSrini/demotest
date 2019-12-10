@@ -1,0 +1,93 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-12-10T05:49:15.262Z",
+        "line": 4,
+        "name": "Verify first of the LoginPage",
+        "description": "",
+        "id": "test;verify-first-of-the-loginpage",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1669700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on NewHomePage",
+            "match": {
+              "location": "HomePageStepDefn.user_is_on_NewHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 496500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User Click on NewLogin Btn",
+            "match": {
+              "location": "HomePageStepDefn.user_Click_on_NewLogin_Btn()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@E2ENew"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-12-10T05:49:15.283Z",
+        "line": 9,
+        "name": "Verify second of the LoginPage",
+        "description": "",
+        "id": "test;verify-second-of-the-loginpage",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 574100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User is on NewHomePage",
+            "match": {
+              "location": "HomePageStepDefn.user_is_on_NewHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 554900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User Click on NewLogin Btn",
+            "match": {
+              "location": "HomePageStepDefn.user_Click_on_NewLogin_Btn()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@E2ENew"
+          }
+        ]
+      }
+    ],
+    "name": "Test",
+    "description": "",
+    "id": "test",
+    "keyword": "Feature",
+    "uri": "file:src/main/java/Feature/Test.feature",
+    "tags": []
+  }
+]

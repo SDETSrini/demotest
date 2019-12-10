@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0.02368">
+<testcase classname="Test" name="Verify Hooks of the LoginPage" time="0.02368">
+<system-out><![CDATA[Given User is on NewHomePage................................................skipped
+And User Click on NewLogin Btn..............................................skipped
+]]></system-out>
+</testcase>
+</testsuite>
